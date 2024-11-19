@@ -19,4 +19,6 @@ To run this project, you need:
 ### 1. Clone the Repository
 To get started, clone this repository to your local machine:
 ```bash
-git clone https://github.com/your-username/RealTime-Bitcoin-Transaction-System.git
+git clone https://github.com/KumarP123IT/RealTime-Bitcoin-Transaction-System.git
+```
+cd bitcoin-transaction-blockchain
