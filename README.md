@@ -45,17 +45,17 @@ The blockchain works as follows:
 
 * Each block contains:
 
- - A SHA256 hash (unique identifier for the block)
- - The previous block's SHA256 hash
- - A list of transactions
- - A timestamp representing when the block was created
- - The Genesis Block is the first block in the blockchain, created with a special system transaction.
+  - A SHA256 hash (unique identifier for the block)
+  - The previous block's SHA256 hash
+  - A list of transactions
+  - A timestamp representing when the block was created
+  - The Genesis Block is the first block in the blockchain, created with a special system transaction.
 
 * Mining: Each block is "mined" by solving a proof-of-work puzzle, where the hash of the block must start with a certain number of leading zeros (based on the difficulty level).
 
 * Blockchain integrity: Blockchain integrity is maintained by validating hashes between consecutive blocks using the SHA256 algorithm.
 
-  ## SHA256 Hashing
+## SHA256 Hashing
    SHA256 (Secure Hash Algorithm 256-bit) is used to ensure the immutability and security of the blockchain. Every block’s hash is generated from:
 
  - The block’s transactions
@@ -65,34 +65,34 @@ This makes the blockchain tamper-resistant, as any change in the block’s conte
 
 ## Example Output 
 
-```bash
-Welcome to the RealTime Bitcoin Transaction Process!
-Enter your name: Alice
-Enter the recipient name: Bob
-Enter the Amount Could be send: 200.32
+  ```bash
+  Welcome to the RealTime Bitcoin Transaction Process!
+  Enter your name: Alice
+  Enter the recipient name: Bob
+  Enter the Amount Could be send: 200.32
+  
+  Block Mined! Hash: 0000a5c753ab5c40ba0427a6502719d41b593becb7575cdcb5649c945bfa2372
+  Blockchain Details:
+  Block 1:
+  Block Details   : 
+    Hash          : 0000d7c9cb57d7c8b7c4197c310d616b5a0897427ce5beb6cb6923c5d5c60954
+    Previous Hash : 0
+    Transaction   : [Transaction{sender='System', receiver='Genesis Block', amount=0.0}]
+    TimeStamp     : 1732008824122
+  
+  Block 2:
+  Block Details   : 
+    Hash          : 0000a5c753ab5c40ba0427a6502719d41b593becb7575cdcb5649c945bfa2372
+    Previous Hash : 0000d7c9cb57d7c8b7c4197c310d616b5a0897427ce5beb6cb6923c5d5c60954
+    Transaction   : [Transaction{sender='Alice', receiver='Bob', amount=200.32}]
+    TimeStamp     : 1732008834603
 
-Block Mined! Hash: 0000a5c753ab5c40ba0427a6502719d41b593becb7575cdcb5649c945bfa2372
-Blockchain Details:
-Block 1:
-Block Details   : 
-  Hash          : 0000d7c9cb57d7c8b7c4197c310d616b5a0897427ce5beb6cb6923c5d5c60954
-  Previous Hash : 0
-  Transaction   : [Transaction{sender='System', receiver='Genesis Block', amount=0.0}]
-  TimeStamp     : 1732008824122
+  Do you want to see BlockChain is valid or not? (Yes/No): Yes
+  Is Blockchain valid? true
 
-Block 2:
-Block Details   : 
-  Hash          : 0000a5c753ab5c40ba0427a6502719d41b593becb7575cdcb5649c945bfa2372
-  Previous Hash : 0000d7c9cb57d7c8b7c4197c310d616b5a0897427ce5beb6cb6923c5d5c60954
-  Transaction   : [Transaction{sender='Alice', receiver='Bob', amount=200.32}]
-  TimeStamp     : 1732008834603
-
-Do you want to see BlockChain is valid or not? (Yes/No): Yes
-Is Blockchain valid? true
-
-Do you want to send money again? (Yes/No): No
-Thank you for using the RealTime Bitcoin Transaction Process! Have a great day.
-```
+  Do you want to send money again? (Yes/No): No
+  Thank you for using the RealTime Bitcoin Transaction Process! Have a great day.
+  ```
 
 ## Technology Used 
 
@@ -115,8 +115,7 @@ Feel free to fork this repository and contribute by:
  - Enhancing the user interface (UI) to a web-based platform or graphical user interface (GUI).
 
 ## License
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute this project as per the terms of the license.
-
+This project is licensed under the [MIT License](MIT%20License). Feel free to use, modify, and distribute this project as per the terms of the license.
 
 ## Author
 **Kumar P B.Tech IT** 
