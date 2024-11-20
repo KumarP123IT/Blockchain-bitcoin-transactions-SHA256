@@ -63,7 +63,7 @@ The blockchain works as follows:
  - The current timestamp
 This makes the blockchain tamper-resistant, as any change in the block’s content would change its hash, which in turn would invalidate the subsequent blocks.
 
-Example Output 
+## Example Output 
 
 ```bash
 Welcome to the RealTime Bitcoin Transaction Process!
@@ -116,3 +116,13 @@ Feel free to fork this repository and contribute by:
 
 ## License 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+## Author
+**Kumar P B.Tech IT** 
+Final-Year Student | Aspiring Blockchain Developer  
+[LinkedIn Profile](https://www.linkedin.com/in/kumar-p-bbbbb3252/)  
+[GitHub Profile](https://github.com/KumarP123IT/)
+
+Feel free to connect with me for discussions, collaborations, and blockchain innovations!
+
