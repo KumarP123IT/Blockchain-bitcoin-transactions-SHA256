@@ -25,7 +25,7 @@ cd bitcoin-transaction-blockchain
 ### 2. Compile the Code
 Navigate to the project directory and compile the java files:
 ```bash
-javac Main.java Blockchain.java Block.java Transaction.java
+javac Main.java
 ```
 ### 3. Run the Application
 Once compiled, run the projecct with the following cammand:
