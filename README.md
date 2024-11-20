@@ -114,15 +114,14 @@ Feel free to fork this repository and contribute by:
  - Adding a real-time transaction simulation with external data.
  - Enhancing the user interface (UI) to a web-based platform or graphical user interface (GUI).
 
-## License 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute this project as per the terms of the license.
 
 
 ## Author
 **Kumar P B.Tech IT** 
 Final-Year Student | Aspiring Blockchain Developer  
 [LinkedIn Profile](https://www.linkedin.com/in/kumar-p-bbbbb3252/)  
-[GitHub Profile](https://github.com/KumarP123IT/)
 
 Feel free to connect with me for discussions, collaborations, and blockchain innovations!
 
